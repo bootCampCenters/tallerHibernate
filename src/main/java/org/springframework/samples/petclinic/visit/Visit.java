@@ -28,6 +28,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.samples.petclinic.model.BaseEntity;
 
 
+
 /**
  * Simple JavaBean domain object representing a visit.
  *
@@ -59,9 +60,6 @@ public class Visit extends BaseEntity {
     @Column(name = "pet_id")
     private Integer petId;
     
-    
-    
-   
 
 
     /**

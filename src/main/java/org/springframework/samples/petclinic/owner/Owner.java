@@ -60,12 +60,13 @@ public class Owner extends Person {
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner")
     private Set<Pet> pets;
+    
+   
+
 
    
     
-    
-
-    public void setPets(Set<Pet> pets) {
+     public void setPets(Set<Pet> pets) {
 	this.pets = pets;
     }
 
